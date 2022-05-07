@@ -1,0 +1,171 @@
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.bg-mod2 {
+  background: url(./img/bg-pattern-intro-desktop.svg) no-repeat;
+  background-size: 118.75rem;
+  background-position: center;
+}
+
+.bg-mod1 {
+  background: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(356, 100%, 66%),
+    hsl(356, 100%, 66%)
+  );
+  border-bottom-left-radius: 100px;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+.navegacao ul {
+  display: flex;
+  flex: wrap;
+  margin-left: 50px;
+}
+
+.navegacao li {
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.navegacao ul li a {
+  color: #fff;
+  padding: 5px;
+}
+
+.navegacao ul li a::after {
+  content: "";
+  width: 10px;
+  height: 7px;
+  display: inline-block;
+  background: url(./img/icon-arrow-light.svg) no-repeat center center;
+  margin-left: 5px;
+}
+
+.mod-login {
+  position: absolute;
+  right: 0;
+}
+
+.mod-login ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mod-login ul li {
+  font-family: "Ubuntu";
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+ul.sub-mod-login li:first-child a {
+  color: #fff;
+  margin-right: 35px;
+}
+
+ul.sub-mod-login li:last-child a {
+  color: hsl(356, 100%, 66%);
+  background: #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-right: 35px;
+}
+
+ul.sub-mod-login li:last-child a:hover {
+  color: #fff;
+  background: hsl(355, 100%, 74%);
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-right: 35px;
+}
+
+.home-bg {
+  margin-top: 70px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.home-bg .home-sub h1 {
+  font-size: 3.125rem;
+  font-family: "Overpass";
+  color: #fff;
+  padding-bottom: 26px;
+}
+
+.home-bg .home-sub p {
+  font-size: 1rem;
+  font-family: "Ubuntu";
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 50px;
+}
+
+.home-bg .btn-home a {
+  font-family: "Ubuntu";
+  font-size: 1rem;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.home-bg .btn-home a:first-child {
+  color: hsl(356, 100%, 66%);
+  background: #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.home-bg .btn-home a:first-child:hover {
+  color: #fff;
+  background: hsl(355, 100%, 74%);
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.home-bg .btn-home a:last-child {
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.home-bg .btn-home a:last-child:hover {
+  color: hsl(356, 100%, 66%);
+  background-color: #fff;
+  border: solid 2px #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
