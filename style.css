@@ -169,3 +169,45 @@ ul.sub-mod-login li:last-child a:hover {
   border-radius: 20px;
   padding: 10px 20px;
 }
+
+.home-section-2 {
+  margin-top: 100px;
+  background: url(./img/illustration-editor-desktop.svg) no-repeat;
+  background-size: 600px;
+  background-position: 800px 10px;
+}
+
+.tittle-section-2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Overpass";
+  margin-bottom: 100px;
+}
+
+.section2-tittle-1 h2 {
+  font-family: "Overpass";
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.section2-tittle-2 h2 {
+  font-family: "Overpass";
+  font-size: 25px;
+  padding: 20px 0px 10px 0px;
+}
+
+.section2-tittle-1 p {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  line-height: 27px;
+  width: 550px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.section2-tittle-2 p {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  line-height: 27px;
+  width: 550px;
+  color: rgba(0, 0, 0, 0.5);
+}
