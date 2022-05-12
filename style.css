@@ -34,7 +34,7 @@ a {
 }
 
 .container {
-  width: 1220px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 auto;
   box-sizing: border-box;
@@ -221,7 +221,7 @@ ul.sub-mod-login li:last-child a:hover {
 
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .bg-phone {
   max-height: 300px;
@@ -255,5 +255,42 @@ ul.sub-mod-login li:last-child a:hover {
   font-weight: 500;
   line-height: 25px;
   color: rgba(255, 255, 255, 0.6);
+  width: 500px;
+}
+
+.home-laptop {
+  margin-top: 150px;
+  background: url(./img/illustration-laptop-desktop.svg) no-repeat;
+  background-size: 700px;
+  background-position: -200px -40px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.tittle-laptop-1 h1 {
+  padding-bottom: 20px;
+  font-family: "Overpass";
+  color: hsl(208, 49%, 24%);
+}
+.tittle-laptop-1 p {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.tittle-laptop-2 h1 {
+  padding-bottom: 20px;
+  font-family: "Overpass";
+  color: hsl(208, 49%, 24%);
+}
+.tittle-laptop-2 p {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
   width: 500px;
 }
