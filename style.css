@@ -172,25 +172,31 @@ ul.sub-mod-login li:last-child a:hover {
 
 .home-section-2 {
   margin-top: 100px;
-  background: url(./img/illustration-editor-desktop.svg) no-repeat;
-  background-size: 600px;
-  background-position: 800px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
 }
 
 .tittle-section-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   font-size: 25px;
   text-align: center;
   font-family: "Overpass";
-  margin-bottom: 100px;
 }
 
 .section2-tittle-1 h2 {
+  margin-top: 100px;
   font-family: "Overpass";
   font-size: 25px;
   padding-bottom: 10px;
 }
 
 .section2-tittle-2 h2 {
+  margin-top: 100px;
   font-family: "Overpass";
   font-size: 25px;
   padding: 20px 0px 10px 0px;
@@ -211,6 +217,11 @@ ul.sub-mod-login li:last-child a:hover {
   width: 550px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.home-section-2 img {
+  margin-left: 70px;
+}
+
 .bg-phone-2 {
   background: linear-gradient(
     to right,
@@ -260,14 +271,18 @@ ul.sub-mod-login li:last-child a:hover {
 
 .home-laptop {
   margin-top: 150px;
-  background: url(./img/illustration-laptop-desktop.svg) no-repeat;
-  background-size: 700px;
-  background-position: -200px -40px;
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  position: relative;
+}
+
+.home-laptop img {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .tittle-laptop-1 h1 {
