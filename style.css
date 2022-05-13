@@ -294,3 +294,54 @@ ul.sub-mod-login li:last-child a:hover {
   color: rgba(0, 0, 0, 0.6);
   width: 500px;
 }
+
+.sub-footer {
+  height: 300px;
+  margin-top: 150px;
+  padding-top: 50px;
+  background: hsl(240, 10%, 16%);
+  border-top-right-radius: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+span {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  color: #fff;
+}
+
+.sub-product {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 40px;
+}
+
+.sub-product li {
+  padding-top: 15px;
+}
+
+.sub-company {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 50px;
+}
+
+.sub-company li {
+  padding-top: 15px;
+}
+
+.sub-connect {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 50px;
+}
+
+.sub-connect li {
+  padding-top: 15px;
+}
